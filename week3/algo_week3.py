@@ -72,5 +72,5 @@ def main():
         prediction = nn.feedforward(X[i])
         st.write(f"Input: {X[i]}, Predicted Output: {prediction}")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
